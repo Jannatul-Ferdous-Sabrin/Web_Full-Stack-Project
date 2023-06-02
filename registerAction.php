@@ -16,14 +16,15 @@ $duplicate_username = mysqli_query($conn, "SELECT * FROM `register` WHERE userna
 $duplicate_email = mysqli_query($conn, "SELECT * FROM `register` WHERE email='$r_email'");
 
  
+
 if (!preg_match($_email_pattern, $r_email)) {
     echo "<script>alert('Use Only LUS Email!!')</script>";
     echo "<script>location.href='register.php'</script>";
 } else if (!preg_match($_mobile_pattern, $r_mobile)) {
-    echo "<script>alert('Used BD Mobile Number!!')</script>";
+    echo "<script>alert('Use BD Mobile Number!!')</script>";
     echo "<script>location.href='register.php'</script>";
 } else if ($r_pass !==$r_con_pass) {
-    echo "<script>alert('Pass and con-pass is not matching!!')</script>";
+    echo "<script>alert('Pass and con-pass do not match!!')</script>";
     echo "<script>location.href='register.php'</script>";
 } else 
 {

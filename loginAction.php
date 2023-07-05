@@ -1,6 +1,5 @@
  
- 
- <!-- <?php
+  <?php
 session_start();
 $username="Sabrin";
 $pass="Sabb";
@@ -16,7 +15,7 @@ else{
     echo "<script> alert ('Username and Password is not matching!!')</script>";
     echo "<script> location.href = 'login.php' </script>";
 }
-?> -->
+?> 
 
 
 

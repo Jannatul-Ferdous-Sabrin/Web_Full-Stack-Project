@@ -6,7 +6,7 @@
         echo "<br><a href='logout.php'><input type='button' value='logout' name='logout'></a>";
     }
     else{
-        echo "<script> location.href = alert('Do not access from url,Please Log In First')</script>";
+        echo "<script> location.href = alert('Please login first')</script>";
         echo "<script> location.href = 'login.php' </script>";
     }
 ?>

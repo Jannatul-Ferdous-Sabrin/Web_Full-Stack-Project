@@ -1,19 +1,21 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-image: url(../Images/clouds.jpg);
+    background-image: url(../Images/wallpaper1.jpg);
     background-size: cover;
 }
 h1{
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+    color:whitesmoke;
 }
 p{
     margin: 0 auto;
     text-align: center;
     padding: 5px;
     font-weight: bold;
+    color: whitesmoke;
   }
 
 table{

@@ -36,13 +36,13 @@
                  <h3>Author:</h3>
                  <p><?php echo $row["author"]; ?></p>
                  <h3>Type:</h3>
-                 <p><?php echo $row["author"]; ?></p>
+                 <p><?php echo $row["type"]; ?></p>
                 
                  <?php
                 }
             }
             else{
-                echo "<h3>Book description are coming soon...........</h3>";
+                echo "<h3>Updating Continuously</h3>";
             }
             ?>
             

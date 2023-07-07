@@ -38,6 +38,7 @@
                     <option value="Fantasy" <?php if($row["type"]=="Fantasy"){echo "selected";} ?>>Fantasy</option>
                     <option value="Horror" <?php if($row["type"]=="Horror"){echo "selected";} ?>>Horror</option>
                     <option value="self help" <?php if($row["type"]=="self help"){echo "selected";} ?>>self help</option>
+                    
                 </select>
             </div>
             <div class="form-element my-4">
